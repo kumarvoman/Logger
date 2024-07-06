@@ -12,8 +12,11 @@ Basic-requirements
 9. Auto reduction of random and repeated logs, if no issues found - Model needs to be trained with successful logs for various scenarios.
 10. Logs should generate alert if any error found - Again, model can be trained with failure logs.
 11. Automatic type deduction for provided data type, and print it in most readable form.
+
  e.g.
+ 
    int a =5; double b = 5.5;
+   
    // All the below examples should generate --> a is 5 b is 5.5
 
    Log("a is " a "b is " b);
