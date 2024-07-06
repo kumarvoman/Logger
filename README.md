@@ -15,7 +15,11 @@ Basic-requirements
  e.g.
    int a =5; double b = 5.5;
    // All the below examples should generate --> a is 5 b is 5.5
-   Log("a is " a "b is " b); 
+
+   Log("a is " a "b is " b);
+
    Log("a is "+ a "b is "+ b);
+   
    Log("a is "<< a "b is "<< b);
+   
    Log("a is %d b is %f",a, b);
